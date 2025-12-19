@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nikka Kim F. Cablay | Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", Arial, sans-serif;
+            background: linear-gradient(135deg, #fdfbfb, #ebedee);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            background: #ffffff;
+            width: 90%;
+            max-width: 850px;
+            border-radius: 20px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+            display: flex;
+            overflow: hidden;
+        }
+
+        .left {
+            width: 35%;
+            background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+            color: #333;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .left img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #ffffff;
+            margin-bottom: 15px;
+        }
+
+        .left h1 {
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+
+        .left p {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+        .right {
+            width: 65%;
+            padding: 35px;
+        }
+
+        .right h2 {
+            color: #ff7a85;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #ff7a85;
+            padding-bottom: 5px;
+        }
+
+        .right p {
+            color: #555;
+            line-height: 1.7;
+            font-size: 15px;
+        }
+
+        .contact p {
+            margin: 8px 0;
+            font-weight: 500;
+        }
+
+        footer {
+            margin-top: 30px;
+            text-align: right;
+            font-size: 13px;
+            color: #888;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                flex-direction: column;
+            }
+
+            .left, .right {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="left">
+        <img src="nik.jfif" alt="Profile Picture">
+        <h1>Nikka Kim F. Cablay</h1>
+        <p>BSIT Student</p>
+        <p>SKSU Isulan Campus</p>
+    </div>
+
+    <div class="right">
+        <h2>About Me</h2>
+        <p>
+            Hi! I’m Nikka Kim F. Cablay, an ordinary student currently pursuing
+            a Bachelor of Science in Information Technology (BSIT) at SKSU Isulan Campus.
+            I live in President Quirino, Sultan Kudarat. My hobbies include sleeping
+            and watching K-Dramas. Again, I’m Nikka, and thank you for listening!
+        </p>
+
+        <h2>Contact</h2>
+        <div class="contact">
+            <p>📞 0951-489-3979</p>
+            <p>📧 nikkakimcablay@sksu.edu.ph</p>
+        </div>
+
+        <footer>
+            © 2025 | Nikka Kim F. Cablay
+        </footer>
+    </div>
+</div>
+
+</body>
+</html>
